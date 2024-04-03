@@ -55,12 +55,16 @@ const timeNumber = parseFloat(time);
 
 const speed = distanceNumber / timeNumber;
 
+// console.log(
+//   "To cover the distance within " +
+//     time +
+//     " hours, you need to maintain a speed of " +
+//     speed +
+//     " kilometers per hour."
+// );
+
 console.log(
-  "To cover the distance within " +
-    time +
-    " hours, you need to maintain a speed of " +
-    speed +
-    " kilometers per hour."
+  `To cover a distance of ${distanceNumber} km within ${timeNumber} hours, you need to maintain a speed of ${speed} km/h.`
 );
 
 // Request user’s name, age, country of birth and display them in the console in different lines with different colors to be easily visible
